@@ -53,23 +53,33 @@ strong
     color: #007BFF;
 }
 
-.button--mail
-{
-    background-color: #F2EBDF;
-    width: max-content;
-    padding: 1.6rem;
-    border-radius: 1rem;
-    border: none;
-}
-
 /* LINK */
 
-.link--mail
+a
 {
     text-decoration: none;
     color: #007BFF;
     font-size: 1.6rem;
     font-weight: bolder;
+}
+
+.mail
+{
+    background-color: #F2EBDF;
+    width: max-content;
+    padding: 1.6rem;
+    border-radius: 1rem;
+}
+
+.mail:hover
+{
+    color: #302A1E;
+}
+
+.mail:active
+{
+    color: #007BFF;
+    opacity: 75%;
 }
 
 /* PICTURE */
@@ -134,17 +144,6 @@ p
         font-size: 2.278rem;
     }
 
-    .button--mail
-    {
-        padding: 1.8rem;
-    }
-
-    /* LINK */
-
-    .link--mail
-    {
-        font-size: 1.8rem;
-    }
 
     /* PRESENTATION */
 
@@ -184,16 +183,9 @@ p
         font-size: 2.563rem;
     }
 
-    .button--mail
+    a
     {
-        padding: 2.025rem;
-    }
-
-    /* LINK */
-
-    .link--mail
-    {
-        font-size: 2.025rem;
+        font-size: 1.8rem;
     }
 
     /* PRESENTATION */
